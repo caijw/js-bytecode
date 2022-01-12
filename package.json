@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/caijw/js-bytecode#readme",
   "dependencies": {
-    "bytenode": "^1.3.4"
+    "bytenode": "^1.3.4",
+    "minimist": "^1.2.5"
   }
 }

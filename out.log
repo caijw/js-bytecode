@@ -1,0 +1,16 @@
+Hello World!
+evalmachine.<anonymous>:1
+"​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​"
+                                                                                                                    ^
+
+ReferenceError: a is not defined
+    at test3 (evalmachine.<anonymous>:1:117)
+    at test2 (evalmachine.<anonymous>:1:85)
+    at test1 (evalmachine.<anonymous>:1:53)
+    at test (evalmachine.<anonymous>:1:21)
+    at evalmachine.<anonymous>:1:156
+    at Script.runInThisContext (node:vm:129:12)
+    at runBytecode (/Users/jingweicai/dev/js-bytecode/node_modules/bytenode/lib/index.js:165:17)
+    at Object.runBytecodeFile (/Users/jingweicai/dev/js-bytecode/node_modules/bytenode/lib/index.js:247:10)
+    at Object.<anonymous> (/Users/jingweicai/dev/js-bytecode/run.js:2:10)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
