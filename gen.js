@@ -1,7 +1,8 @@
 const bytenode = require('bytenode');
 let compiledFilename = bytenode.compileFile({
   filename: './code.js',
-  output: './code.jsc'
+  output: './code.jsc',
+  compileAsModule: false
 });
 
 compiledFilename.then((output) => {
